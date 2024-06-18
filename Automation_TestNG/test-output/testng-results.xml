@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-18T18:58:46 IST" name="Suite" finished-at="2024-06-18T18:58:47 IST" duration-ms="146">
+    <groups>
+      <group name="Functional">
+        <method signature="A08_Groups.logINTC()[pri:2, instance:package01_TestNGDemo.A08_Groups@32502377]" name="logINTC" class="package01_TestNGDemo.A08_Groups"/>
+        <method signature="A08_Groups.logoutTC()[pri:3, instance:package01_TestNGDemo.A08_Groups@32502377]" name="logoutTC" class="package01_TestNGDemo.A08_Groups"/>
+        <method signature="A08_Groups.search()[pri:4, instance:package01_TestNGDemo.A08_Groups@32502377]" name="search" class="package01_TestNGDemo.A08_Groups"/>
+        <method signature="A08_Groups.ibmme()[pri:6, instance:package01_TestNGDemo.A08_Groups@32502377]" name="ibmme" class="package01_TestNGDemo.A08_Groups"/>
+      </group> <!-- Functional -->
+    </groups>
+    <test started-at="2024-06-18T18:58:46 IST" name="Test" finished-at="2024-06-18T18:58:47 IST" duration-ms="146">
+      <class name="package01_TestNGDemo.A08_Groups">
+        <test-method signature="logINTC()[pri:2, instance:package01_TestNGDemo.A08_Groups@32502377]" started-at="2024-06-18T18:58:47 IST" name="logINTC" finished-at="2024-06-18T18:58:47 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logINTC -->
+        <test-method signature="logoutTC()[pri:3, instance:package01_TestNGDemo.A08_Groups@32502377]" started-at="2024-06-18T18:58:47 IST" name="logoutTC" finished-at="2024-06-18T18:58:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTC -->
+        <test-method signature="search()[pri:4, instance:package01_TestNGDemo.A08_Groups@32502377]" started-at="2024-06-18T18:58:47 IST" name="search" finished-at="2024-06-18T18:58:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="ibmme()[pri:6, instance:package01_TestNGDemo.A08_Groups@32502377]" started-at="2024-06-18T18:58:47 IST" name="ibmme" finished-at="2024-06-18T18:58:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ibmme -->
+      </class> <!-- package01_TestNGDemo.A08_Groups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

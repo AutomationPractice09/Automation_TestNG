@@ -1,0 +1,9 @@
+package package01_TestNGDemo;
+
+import org.testng.annotations.Test;
+
+public class A07_EnabledXml {
+  @Test
+  public void f() {
+  }
+}

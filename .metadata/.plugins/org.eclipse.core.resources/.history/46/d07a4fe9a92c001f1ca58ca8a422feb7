@@ -1,0 +1,24 @@
+package package01_TestNGDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class A01_Priority {
+  @Test
+  public void signIN() 
+  {
+	  WebDriver driver = new ChromeDriver();
+	  driver.get("https://automationplayground.com/crm/");
+	  driver.findElement(By.id("SignIn")).click();
+  }
+  
+  public class A01_Priority {
+	  @Test
+	  public void loginIN() 
+	  {
+		  driver.get("https://automationplayground.com/crm/");
+		  driver.findElement(By.id("SignIn")).click();
+	  }
+}

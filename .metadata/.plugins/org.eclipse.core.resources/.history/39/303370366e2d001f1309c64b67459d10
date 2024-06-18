@@ -1,0 +1,10 @@
+package package01_TestNGDemo;
+
+public class A06_Enabled {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
