@@ -1,0 +1,9 @@
+package package07_Assertion;
+
+import org.testng.annotations.Test;
+
+public class A01_HardAssert1 {
+  @Test
+  public void f() {
+  }
+}

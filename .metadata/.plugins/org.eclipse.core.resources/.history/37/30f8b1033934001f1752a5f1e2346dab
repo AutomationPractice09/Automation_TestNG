@@ -1,0 +1,9 @@
+package package05_DataPassing;
+
+import org.testng.annotations.Test;
+
+public class A01_DataPassingXML {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,9 @@
+package package09_ParallelExecution;
+
+import org.testng.annotations.Test;
+
+public class A03_FirefoxTest {
+  @Test
+  public void f() {
+  }
+}

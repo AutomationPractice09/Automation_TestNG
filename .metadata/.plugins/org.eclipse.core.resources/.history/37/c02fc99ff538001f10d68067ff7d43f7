@@ -1,0 +1,9 @@
+package package10_parrExeDataProv;
+
+import org.testng.annotations.Test;
+
+public class A01_ParrExeDataProv {
+  @Test
+  public void f() {
+  }
+}

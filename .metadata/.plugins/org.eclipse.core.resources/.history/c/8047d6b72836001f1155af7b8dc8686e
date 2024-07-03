@@ -1,0 +1,27 @@
+package package00_Utility;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class A01_FileRead 
+{
+	
+	public Properties properties(String loc)
+	{
+		File f1 = new File(System.getProperty("user.dir"+"//"+loc));
+		
+		Properties p1 = new Properties();
+		
+		FileInputStream fs;
+		try {
+			fs = new FileInputStream(f1);
+			p1.load(fs);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		return p1;
+	}
+}

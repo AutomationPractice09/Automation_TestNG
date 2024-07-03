@@ -1,0 +1,36 @@
+package package06_RealTimeDataPassing;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A01_OrangeHRM 
+{
+  @Parameters({"un","pwd"})
+  @Test
+  public void hrmLogin(String un, String pwd) throws IOException 
+  {
+	  File f1 = new File(System.getProperty("user.dir")+"//config.properties");
+	  FileInputStream fs = new FileInputStream(f1);
+	  Properties p1 = new Properties();
+	  p1.load(fs);	  
+	  
+	  WebDriver driver = new ChromeDriver();
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  driver.get(p1.getProperty("url"));
+	  
+	  driver.findElement(By.name("username")).sendKeys(p1.getProperty(un));
+	  driver.findElement(By.name("password")).sendKeys(p1.getProperty(pwd));
+	  driver.findElement(By.xpath("//button[@type='submit']")).click();
+	    
+  }
+}

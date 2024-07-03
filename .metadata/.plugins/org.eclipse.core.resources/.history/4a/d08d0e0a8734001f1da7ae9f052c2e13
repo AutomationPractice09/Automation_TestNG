@@ -1,0 +1,12 @@
+package package07_Assertion;
+
+import org.testng.annotations.Test;
+
+public class A03_SoftAssert1 
+{
+  @Test
+  public void softAssert() 
+  {
+	  
+  }
+}

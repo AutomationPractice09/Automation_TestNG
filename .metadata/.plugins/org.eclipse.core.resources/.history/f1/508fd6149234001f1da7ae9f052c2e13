@@ -1,0 +1,9 @@
+package package08_PropertyFile;
+
+import org.testng.annotations.Test;
+
+public class A01_PropertyFile {
+  @Test
+  public void f() {
+  }
+}

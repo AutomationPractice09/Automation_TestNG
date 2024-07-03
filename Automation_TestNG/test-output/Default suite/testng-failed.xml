@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="package01_TestNGDemo.A05_FailedTC">
+      <class name="package10_parrExeDataProv.A01_ParrExeDataProv">
         <methods>
-          <include name="registrationTC"/>
+          <include name="broserSelect"/>
         </methods>
-      </class> <!-- package01_TestNGDemo.A05_FailedTC -->
+      </class> <!-- package10_parrExeDataProv.A01_ParrExeDataProv -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

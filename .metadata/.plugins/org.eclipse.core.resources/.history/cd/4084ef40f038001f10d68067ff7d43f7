@@ -1,0 +1,27 @@
+package package09_ParallelExecution;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class A01_ParallelExeBrowsers 
+{
+  @Test
+  public void googleTest() 
+  {
+	  WebDriver driver = new ChromeDriver();
+	  driver.get("");
+	  System.out.println(driver.getTitle());
+  }
+  
+  @Test
+  public void edgeTest() 
+  {
+	  
+  }
+  
+  @Test
+  public void firefoxTest() 
+  {
+	  
+  }
+}
