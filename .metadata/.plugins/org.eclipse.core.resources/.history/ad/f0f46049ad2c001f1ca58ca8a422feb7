@@ -1,9 +1,0 @@
-package package01_TestNGDemo;
-
-import org.testng.annotations.Test;
-
-public class A03_InvocationCount {
-  @Test
-  public void f() {
-  }
-}

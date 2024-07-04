@@ -1,9 +1,0 @@
-package package01_TestNGDemo;
-
-import org.testng.annotations.Test;
-
-public class A06_Enabled {
-  @Test
-  public void f() {
-  }
-}

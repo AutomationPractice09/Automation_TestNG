@@ -1,0 +1,30 @@
+package package11_POM1;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class A03_LoginTest 
+{
+	
+  @Test(priority=1)
+  public void verifyURL() 
+  {
+	  A01_LoginPage lp = new A01_LoginPage();
+	  String url = lp.getURL();
+	  Assert.assertTrue(url.contains("hrm"),"Test is Failed and URL is not Match");
+	  System.out.println("Test is Passed and URL is matched");
+  }
+  
+  @Test(priority=2)
+  public void verifyTitle() 
+  {
+	  
+  }
+  
+  @Test(priority=3)
+  public void login() 
+  {
+	  
+  }
+  
+}

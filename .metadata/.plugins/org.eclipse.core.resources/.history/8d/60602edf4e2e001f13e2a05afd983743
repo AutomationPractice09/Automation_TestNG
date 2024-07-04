@@ -1,9 +1,0 @@
-package package02_TestngAnnotations;
-
-import org.testng.annotations.Test;
-
-public class A01_BeforeMethod {
-  @Test
-  public void f() {
-  }
-}

@@ -1,0 +1,23 @@
+package package11_POM1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+//here we Apply Encapsulation i.e Binding private Data + public Methods
+
+public class A01_LoginPage 
+{
+	
+	private WebDriver driver;
+	
+	//initialization of driver
+	
+	
+	
+	//private data
+	private By un = By.name("username");
+	private By pwd = By.name("password");
+	private By login = By.xpath("//button[@type='submit']");
+	
+
+}

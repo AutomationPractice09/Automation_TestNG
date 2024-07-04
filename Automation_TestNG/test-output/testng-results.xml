@@ -2,53 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-03T10:26:35 IST" name="Suite" finished-at="2024-07-03T10:26:50 IST" duration-ms="15106">
+  <suite started-at="2024-07-04T08:53:18 IST" name="Default suite" finished-at="2024-07-04T08:53:27 IST" duration-ms="9473">
     <groups>
     </groups>
-    <test started-at="2024-07-03T10:26:35 IST" name="chromeTest" finished-at="2024-07-03T10:26:45 IST" duration-ms="9468">
-      <class name="package10_parrExeDataProv.A01_ParrExeDataProv">
-        <test-method signature="broserSelect(java.lang.String)[pri:0, instance:package10_parrExeDataProv.A01_ParrExeDataProv@32502377]" started-at="2024-07-03T10:26:35 IST" name="broserSelect" finished-at="2024-07-03T10:26:45 IST" duration-ms="9351" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-07-04T08:53:18 IST" name="Default test" finished-at="2024-07-04T08:53:27 IST" duration-ms="9473">
+      <class name="package11_POM1.A03_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:package11_POM1.A03_LoginTest@130c12b7]" started-at="2024-07-04T08:53:18 IST" name="setup" finished-at="2024-07-04T08:53:25 IST" duration-ms="7009" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- broserSelect -->
-      </class> <!-- package10_parrExeDataProv.A01_ParrExeDataProv -->
-    </test> <!-- chromeTest -->
-    <test started-at="2024-07-03T10:26:35 IST" name="edgeTest" finished-at="2024-07-03T10:26:47 IST" duration-ms="11971">
-      <class name="package10_parrExeDataProv.A01_ParrExeDataProv">
-        <test-method signature="broserSelect(java.lang.String)[pri:0, instance:package10_parrExeDataProv.A01_ParrExeDataProv@4145bad8]" started-at="2024-07-03T10:26:35 IST" name="broserSelect" finished-at="2024-07-03T10:26:47 IST" duration-ms="11878" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyURL()[pri:1, instance:package11_POM1.A03_LoginTest@130c12b7]" started-at="2024-07-04T08:53:25 IST" name="verifyURL" finished-at="2024-07-04T08:53:25 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- broserSelect -->
-      </class> <!-- package10_parrExeDataProv.A01_ParrExeDataProv -->
-    </test> <!-- edgeTest -->
-    <test started-at="2024-07-03T10:26:35 IST" name="firefoxTest" finished-at="2024-07-03T10:26:50 IST" duration-ms="15098">
-      <class name="package10_parrExeDataProv.A01_ParrExeDataProv">
-        <test-method signature="broserSelect(java.lang.String)[pri:0, instance:package10_parrExeDataProv.A01_ParrExeDataProv@738dc9b]" started-at="2024-07-03T10:26:35 IST" name="broserSelect" finished-at="2024-07-03T10:26:50 IST" duration-ms="14996" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyURL -->
+        <test-method signature="verifyTitle()[pri:2, instance:package11_POM1.A03_LoginTest@130c12b7]" started-at="2024-07-04T08:53:25 IST" name="verifyTitle" finished-at="2024-07-04T08:53:25 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- broserSelect -->
-      </class> <!-- package10_parrExeDataProv.A01_ParrExeDataProv -->
-    </test> <!-- firefoxTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="login()[pri:3, instance:package11_POM1.A03_LoginTest@130c12b7]" started-at="2024-07-04T08:53:25 IST" name="login" finished-at="2024-07-04T08:53:27 IST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:package11_POM1.A03_LoginTest@130c12b7]" started-at="2024-07-04T08:53:27 IST" name="tearDown" finished-at="2024-07-04T08:53:27 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- package11_POM1.A03_LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

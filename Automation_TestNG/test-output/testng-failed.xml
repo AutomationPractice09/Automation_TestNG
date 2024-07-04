@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="package10_parrExeDataProv.A01_ParrExeDataProv">
+      <class name="package11_POM1.A03_LoginTest">
         <methods>
-          <include name="broserSelect"/>
+          <include name="login"/>
+          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+          <include name="verifyURL"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- package10_parrExeDataProv.A01_ParrExeDataProv -->
+      </class> <!-- package11_POM1.A03_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
