@@ -1,8 +1,0 @@
-package package04_TestngRealTime_1;
-
-import org.testng.annotations.*;
-
-public class A01_BaseClass 
-{
-	
-}

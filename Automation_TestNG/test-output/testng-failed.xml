@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="package11_POM1.A03_LoginTest">
+      <class name="package13_DataproviderXcel.A03_ExcelRead3">
         <methods>
-          <include name="login"/>
-          <include name="verifyTitle"/>
-          <include name="tearDown"/>
-          <include name="verifyURL"/>
-          <include name="setup"/>
+          <include name="doLogin" invocation-numbers="1"/>
         </methods>
-      </class> <!-- package11_POM1.A03_LoginTest -->
+      </class> <!-- package13_DataproviderXcel.A03_ExcelRead3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

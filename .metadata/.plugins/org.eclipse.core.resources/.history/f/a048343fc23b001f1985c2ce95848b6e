@@ -1,0 +1,14 @@
+package package13_DataproviderXcel;
+
+import org.testng.annotations.Test;
+
+import package00_Utility.A02_ReadExcel;
+
+public class A03_ExcelRead3 
+{
+  @Test(dataProvider="exceldata",dataProviderClass=A02_ReadExcel.class)
+  public void doLogin() 
+  {
+	  
+  }
+}

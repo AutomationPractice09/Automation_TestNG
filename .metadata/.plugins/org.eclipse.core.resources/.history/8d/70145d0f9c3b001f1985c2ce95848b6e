@@ -1,0 +1,10 @@
+package package12_DataProviderArray;
+
+public class A00_DataSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

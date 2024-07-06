@@ -1,9 +1,0 @@
-package package04_TestngRealTime_1;
-
-import org.testng.annotations.Test;
-
-public class A02_CRMTest {
-  @Test
-  public void f() {
-  }
-}

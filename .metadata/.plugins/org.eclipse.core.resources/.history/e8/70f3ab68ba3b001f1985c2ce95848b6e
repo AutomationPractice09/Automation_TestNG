@@ -1,0 +1,11 @@
+package package00_Utility;
+
+public class A02_ReadExcel 
+{
+	
+	public A02_ReadExcel(String filename)
+	{
+		
+	}
+
+}

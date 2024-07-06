@@ -1,0 +1,28 @@
+package package13_DataproviderXcel;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class A01_XcelRead 
+{
+  @Test
+  public void readData() throws IOException 
+  {
+	  
+	  //locate path of excel file
+	  File f1 = new File(System.getProperty("user.dir")+"//TestData//Data.xlsx");
+	  
+	  //Read data in stream
+	  FileInputStream fs = new FileInputStream(f1);
+	  
+	  //workbook-->sheet-->row-->column
+	  XSSFWorkbook wb = new XSSFWorkbook(fs);
+	  
+	  
+	  
+  }
+}

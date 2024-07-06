@@ -1,0 +1,46 @@
+package package00_Utility;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class A02_ReadExcel 
+{
+	public XSSFWorkbook wb;
+	
+	@DataProvider(name="exceldata")
+	public Object[][] ReadExcel(String filename,String sheetname)
+	{
+		File f1 = new File(System.getProperty("user.dir") + "//TestData//"+filename+".xlsx");
+		FileInputStream fs;
+		Object data[][]=null;
+		try {
+			fs = new FileInputStream(f1);
+			wb = new XSSFWorkbook(fs);
+			
+			int rows = wb.getSheet(sheetname).getPhysicalNumberOfRows();
+			int col = wb.getSheet(sheetname).getRow(0).getPhysicalNumberOfCells();
+
+			 data = new Object[rows-1][col];                    
+
+			for (int i = 1; i < rows; i++) 
+			{
+				for (int j = 0; j < col; j++) 
+				{
+					data[i-1][j] = wb.getSheet(sheetname).getRow(i).getCell(j).getStringCellValue();
+				}
+			}
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return data;
+	}
+
+}
