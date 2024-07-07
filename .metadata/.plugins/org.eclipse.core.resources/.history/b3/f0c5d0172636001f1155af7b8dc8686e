@@ -1,9 +1,0 @@
-package package08_PropertyFile;
-
-import org.testng.annotations.Test;
-
-public class A03_HrmUtility {
-  @Test
-  public void f() {
-  }
-}
