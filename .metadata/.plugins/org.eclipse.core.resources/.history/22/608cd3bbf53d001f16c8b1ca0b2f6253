@@ -1,0 +1,11 @@
+package package00_Utility;
+
+public class A04_FullScreenshot 
+{
+	
+	public void fullScreenshot()
+	{
+		
+	}
+
+}

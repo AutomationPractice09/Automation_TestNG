@@ -1,0 +1,13 @@
+package package00_Utility;
+
+public class A04_FullScreenshot 
+{
+	
+	public void fullScreenshot(WebDriver driver)
+	{
+		new AShot()
+		  .shootingStrategy(ShootingStrategies.viewportPasting(100))
+		  .takeScreenshot(driver);
+	}
+
+}

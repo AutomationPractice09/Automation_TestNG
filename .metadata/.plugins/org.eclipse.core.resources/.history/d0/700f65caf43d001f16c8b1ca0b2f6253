@@ -1,0 +1,18 @@
+package package15_FullScreenShot;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class A01_FullScreenshot1 
+{
+  @Test
+  public void takeScreenshot() 
+  {
+	  WebDriver driver = new ChromeDriver();
+	  driver.get("https://amazon.com");
+	  
+	  new AShot()
+	  .shootingStrategy(ShootingStrategies.viewportPasting(100))
+	  .takeScreenshot(driver);
+  }
+}

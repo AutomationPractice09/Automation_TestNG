@@ -1,0 +1,9 @@
+package package15_FullScreenShot;
+
+import org.testng.annotations.Test;
+
+public class A01_FullScreenshot1 {
+  @Test
+  public void f() {
+  }
+}

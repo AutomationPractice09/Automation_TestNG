@@ -1,0 +1,14 @@
+package package15_FullScreenShot;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class A02_FullScreenShot2 {
+  @Test
+  public void screenShot() 
+  {
+	  WebDriver driver = new ChromeDriver();
+	  driver.get("https://facebook.com");
+	  
+  }
+}

@@ -1,0 +1,17 @@
+package package00_Utility;
+
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+
+public class A04_FullScreenshot 
+{
+	
+	public void fullScreenshot(WebDriver driver)
+	{
+		Screenshot sr = new AShot()
+		  .shootingStrategy(ShootingStrategies.viewportPasting(100))
+		  .takeScreenshot(driver);
+	}
+
+}
