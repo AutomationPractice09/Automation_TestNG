@@ -1,9 +1,0 @@
-package package12_DataProviderArray;
-
-import org.testng.annotations.Test;
-
-public class A03_DataproviderReal {
-  @Test
-  public void f() {
-  }
-}

@@ -1,9 +1,0 @@
-package package14_Screenshot;
-
-import org.testng.annotations.Test;
-
-public class A01_TakeScreenshot {
-  @Test
-  public void f() {
-  }
-}

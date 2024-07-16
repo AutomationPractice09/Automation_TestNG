@@ -1,9 +1,0 @@
-package package11_POM1;
-
-import org.testng.annotations.Test;
-
-public class A03_LoginTest {
-  @Test
-  public void f() {
-  }
-}

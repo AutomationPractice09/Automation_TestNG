@@ -1,9 +1,0 @@
-package package13_DataproviderXcel;
-
-import org.testng.annotations.Test;
-
-public class A03_ExcelRead3 {
-  @Test
-  public void f() {
-  }
-}
